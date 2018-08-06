@@ -10,5 +10,6 @@
   },
   "scripts": {
     "dev": "babel ./main.js -o ./bundle.js -w "
-  }
+  },
+  "repository": "https://github.com/mateus-bisognin/Curso-de-ES6.git"
 }
