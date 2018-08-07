@@ -1,18 +1,7 @@
 "use strict";
 
-function soma() {
-  var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 3;
-  var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 6;
-  return a + b;
-}
+var nome = 'Diego';
+var idade = 23; // console.log('Meu nome é ' + nome + ' e tenho ' + idade + ' anos.');
+// Template Literals:
 
-console.log(soma(1));
-console.log(soma());
-
-var soma2 = function soma2() {
-  var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 3;
-  var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 8;
-  return a + b;
-};
-
-console.log(soma2());
+console.log("Meu nome \xE9 ".concat(nome, " e tenho ").concat(idade, " anos."));
