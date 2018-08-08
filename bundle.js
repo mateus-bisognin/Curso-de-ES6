@@ -86,27 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./funcoes.js":
-/*!********************!*\
-  !*** ./funcoes.js ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = mult;\nexports.soma = soma;\nexports.sub = sub;\n\nfunction mult(a, b) {\n  return a * b;\n}\n\nfunction soma(a, b) {\n  return a + b;\n}\n\nfunction sub(a, b) {\n  return a - b;\n}\n\n//# sourceURL=webpack:///./funcoes.js?");
-
-/***/ }),
-
 /***/ "./main.js":
 /*!*****************!*\
   !*** ./main.js ***!
   \*****************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-eval("\n\nvar funcoes = _interopRequireWildcard(__webpack_require__(/*! ./funcoes */ \"./funcoes.js\"));\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }\n\n// import { soma, sub } from './funcoes';\n// import { soma as somaFunction, sub } from './funcoes';\n// import soma from './soma';\n// import somaFunction from './soma';\n// import mult, { soma, sub } from './funcoes';\nconsole.log(funcoes.default(4, 3));\nconsole.log(funcoes.soma(1, 2));\nconsole.log(funcoes.sub(4, 2));\n\n//# sourceURL=webpack:///./main.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: ENOENT: no such file or directory, open 'C:\\\\Users\\\\T-Gamer\\\\Desktop\\\\Projetos\\\\Conteúdo de Cursos\\\\JavaScript\\\\ES6\\\\main.js'\");\n\n//# sourceURL=webpack:///./main.js?");
 
 /***/ })
 
